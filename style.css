@@ -1,0 +1,110 @@
+html{
+    height:100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin:0px;
+    padding:0px;
+    /* background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+body{
+    height:100%;
+    padding:0px;
+    margin:0px;
+}
+
+h1,h2,h3,p{
+    padding:10px;
+    margin:10px 100px;
+}
+
+section{
+    padding:0px;
+    margin:0px;
+}
+
+blockquote{
+    background-image: linear-gradient(to down, silver, aliceblue);
+    position:absolute;
+    top:500px;
+    left:80px;
+    font-size: 24px;
+    width:30%;
+}
+
+h1{
+    background-image: linear-gradient(to bottom, rgb(166, 112, 236), white);
+    box-shadow:50px;
+    margin: 0px 100px 0px 100px;
+    padding: 10px;
+    position:absolute;
+    top:20px;
+    width: 20%;
+    font-size:40px;
+    font-family: fantasy;
+    border-radius: 10%;
+}
+
+h2{
+    font-size: 36px;
+}
+
+p{
+    font-size: 24px;
+}
+
+.regTech1, .regTech2{
+    padding: 10px;
+}
+
+.regTech1{
+    opacity: 0.9;
+    background-color: bisque;
+}
+
+.regTech2{
+    opacity: 0.9;
+    background-color: burlywood;
+}
+
+.bg1{
+    background-image: url('imgs/antelope\ squirrel.png');
+    height:100%;
+}
+
+.bg2{
+    background-image: url('imgs/eagrellope.webp');
+    height: 90%;
+}
+
+.bg3{
+    background-image: url('imgs/tails.jpeg');
+    height: 90%;
+}
+
+.bg5{
+    display:flex;
+    justify-content: center;
+}
+
+.fennec{
+    background-image: url("https://www.thesprucepets.com/thmb/0EFrZTO4Y7XOGS_rRJEHNMk7MpI=/420x0/filters:no_upscale():max_bytes(150000):strip_icc()/about-fennec-foxes-as-pets-1236778-hero-e5e8ebfbd07b4516a2508ea59b8d461b.JPG");
+    height:100%
+}
+
+.bg1, .bg2, .bg3, .fennec{
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    opacity: 0.7;
+    /* padding:100px */
+  }
+
+  #hi{
+      position:absolute;
+      left:480px
+  }
